@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+ <hibernate-mapping>
+    <class name="Marks" table="Marksheet" schema="School">
+       <id name="roll" type="int" column="RollNo"></id>
+       <property name="name" type="string" column="Name"></property>
+       <property name="std" type="int" column="Standard"></property>
+       <property name="avg" type="float" column="Percentage"></property>
+    </class>
+  </hibernate-mapping>  
+ 
